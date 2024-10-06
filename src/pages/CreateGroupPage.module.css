@@ -1,0 +1,137 @@
+.createGroupPage {
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+form {
+  width: 350px; /* 너비를 350px로 고정 */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #282828;
+  margin: 40px 0;
+  text-align: center;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.formGroup {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #282828;
+  font-weight: 500;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="password"],
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.formGroup textarea {
+  resize: none;
+  height: 100px;
+}
+
+.formGroup .fileInputWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.fileInputWrapper input[type="text"] {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.fileInputWrapper button {
+  flex-shrink: 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid #282828;
+  background-color: #fafafa;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.toggleLabelWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.formGroup .toggleLabel {
+  font-size: 14px;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.formGroup .toggleButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fafafa;
+  background-color: #282828;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.submitButton:hover {
+  background-color: #444;
+}
+
+.inputError {
+  border-color: #ff5757;
+}
+
+.errorMessage {
+  color: #ff5757;
+  font-size: 12px;
+  margin-top: 5px;
+}
